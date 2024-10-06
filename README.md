@@ -14,7 +14,7 @@ Sometimes we just leave out configurations that certainly could improve our `Dev
 
 Look at the `.vscode/settings.json` for the configurations
 
-> [!WARNING]  
+> [!WARNING]
 > Workspace settings are specific to a project and override user settings.
 
 |![alt text](./_statics/images/with-ident.png)|
@@ -43,6 +43,7 @@ Below are a list of extremely useful extensions:
 - [Code Spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) (available in others languages as well)
 - [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [Git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 > [!Note]
 > *Needed for settings above

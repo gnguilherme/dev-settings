@@ -2,9 +2,10 @@
 
 
 def print_hello_name(name: str) -> None:
-    """Print "Hello, {name}!".
+    """Prints a greeting message.
 
     Args:
-        name (str): input
+        name (str): Name to greet.
     """
+
     print(f"Hello, {name}!")
