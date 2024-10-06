@@ -16,11 +16,11 @@ Settings for improve dev experience
         "workbench.tree.indent": 30
     }
 ```
-|![alt text](image.png)|
+|![alt text](./_statics/images/with-ident.png)|
 |:--:|
 | *Figure 1: With more indentation* |
 
-|![alt text](image-1.png)|
+|![alt text](./_statics/images/without-ident.png)|
 |:--:|
 | *Figure 2: Without more indentation* |
 
@@ -29,6 +29,6 @@ Settings for improve dev experience
 
 Click the icon right next to `SOURCE CONTROL`
 
-|![alt text](image-2.png)|
+|![alt text](./_statics/images/tree-view-source-control.png)|
 |:--:|
 | *Figure 3: Changing the source control viewing by `tree`|
