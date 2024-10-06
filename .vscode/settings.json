@@ -2,13 +2,21 @@
 {
     // This automatically formats the code on save. It's beautiful!
     // You could also configure it to use Ruff. I prefer to use it on pre-commit hooks
+    // The commented lines are for using Ruff instead of Black
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-             "source.organizeImports": "explicit"
+             "source.organizeImports": "explicit",
+            //  "source.fixAll": "explicit"
         },
         "editor.defaultFormatter": "ms-python.black-formatter"
+        // "editor.defaultFormatter": "charliermarsh.ruff"
     },
+    // "notebook.formatOnSave.enabled": true,
+    // "notebook.codeActionsOnSave": {
+    //         "notebook.source.fixAll": "explicit",
+    //         "notebook.source.organizeImports": "explicit"
+    // },
     // This rulers helps to keep the code within some characters limit
     "editor.rulers": [
         {
