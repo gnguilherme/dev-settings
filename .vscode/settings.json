@@ -1,5 +1,14 @@
 
 {
+    // This automatically formats the code on save. It's beautiful!
+    // You could also configure it to use Ruff. I prefer to use it on pre-commit hooks
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+             "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     // This rulers helps to keep the code within some characters limit
     "editor.rulers": [
         {
