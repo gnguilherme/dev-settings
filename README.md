@@ -2,6 +2,10 @@
 
 Sometimes we just leave out configurations that certainly could improve our `Dev Experience`, like some easy configurations on the `VSCode` itself. This repository aims to share some settings and tools that I myself think are extremely helpful.
 
+## Using `Makefile`
+
+`Makefile` is useful for automating tasks, like creating a python environment
+
 ## VSCode settings
 
 ### `settings.json`
