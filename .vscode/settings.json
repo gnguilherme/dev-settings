@@ -1,0 +1,17 @@
+
+{
+    // This rulers helps to keep the code within some characters limit
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#ff00FF"  // change the color of the ruler to a custom one
+        },
+        100,  // a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
+        {
+            "column": 120,
+            "color": "#ff0000"
+        },
+    ],
+    // This configuration add indentation on the explorer view, improving visibility
+    "workbench.tree.indent": 30
+}
