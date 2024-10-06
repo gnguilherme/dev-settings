@@ -1,34 +1,26 @@
-
 {
-    // This automatically formats the code on save. It's beautiful!
-    // You could also configure it to use Ruff. I prefer to use it on pre-commit hooks
-    // The commented lines are for using Ruff instead of Black
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-             "source.organizeImports": "explicit",
-            //  "source.fixAll": "explicit"
+            "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "ms-python.black-formatter"
-        // "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    // "notebook.formatOnSave.enabled": true,
-    // "notebook.codeActionsOnSave": {
-    //         "notebook.source.fixAll": "explicit",
-    //         "notebook.source.organizeImports": "explicit"
-    // },
-    // This rulers helps to keep the code within some characters limit
     "editor.rulers": [
         {
             "column": 80,
-            "color": "#ff00FF"  // change the color of the ruler to a custom one
+            "color": "#ff00FF"
         },
-        100,  // a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
+        100,
         {
             "column": 120,
             "color": "#ff0000"
-        },
+        }
     ],
-    // This configuration add indentation on the explorer view, improving visibility
-    "workbench.tree.indent": 30
+    "workbench.tree.indent": 30,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
