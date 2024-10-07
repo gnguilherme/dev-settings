@@ -45,3 +45,10 @@ Below are a list of extremely useful extensions:
 - [Git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
+
+## Miscellaneous
+
+- Use `alt + ←,→` to move between words
+- Use `ctrl + D` to select the next occurrence of the selected word
+- Use `ctrl + shift + L` to select all occurrences of the selected word
+- Use the `Column selection mode` for selecting multiple lines at once
