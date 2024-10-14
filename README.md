@@ -55,6 +55,7 @@ Below are a list of extremely useful extensions:
 - [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [Git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 
 ## Miscellaneous
