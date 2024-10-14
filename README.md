@@ -1,10 +1,10 @@
 # dev-settings
 
-Sometimes we just leave out configurations that certainly could improve our `Dev Experience`, like some easy configurations on `VSCode` itself. This repository aims to share some settings and tools that I myself think are extremely helpful.
+Sometimes, we just leave out configurations that could certainly improve our `Dev Experience`, like some easy configurations on VSCode itself. This repository aims to share some settings and tools I think are extremely helpful.
 
 ## Using `Makefile`
 
-`Makefile` is useful for automating tasks, like creating a python environment
+`Makefile` is useful for automating tasks, like creating a Python environment
 
 ## Virtual environments
 
@@ -47,7 +47,7 @@ Click the icon right next to `SOURCE CONTROL`
 
 ## VSCode extensions
 
-Below are a list of extremely useful extensions:
+Below is a list of useful extensions:
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (will install `Pylance` and `Python Debugger`, which also have some settings)
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
 - [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
