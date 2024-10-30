@@ -17,6 +17,8 @@ mkdir -p ~/miniconda3 \
     && source ~/.bashrc
 ```
 
+Currently, I'm using [poetry](https://python-poetry.org/) as a package manager, and it is going great but looks like we have another great option now: [uv](https://docs.astral.sh/uv/)
+
 ## VSCode settings
 
 ### `settings.json`
