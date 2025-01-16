@@ -18,6 +18,7 @@
         }
     ],
     "workbench.tree.indent": 30,
+    "workbench.sideBar.location": "right",
     "python.testing.pytestArgs": [
         "tests"
     ],
